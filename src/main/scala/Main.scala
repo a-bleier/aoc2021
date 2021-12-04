@@ -1,10 +1,10 @@
-import aoc.{Aoc01, Aoc02, Aoc03}
+import aoc.{Aoc01, Aoc02, Aoc03, Aoc04}
 
 import scala.io.Source
 
 object Main {
     def main(args: Array[String]): Unit ={
-        Aoc03.run(readAocInput("aoc03.txt"))
+        Aoc04.run(readAocInput("aoc04.txt"))
     }
 
     def readAocInput(path: String) : Iterator[String] = {
